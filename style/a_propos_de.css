@@ -1,0 +1,62 @@
+.a_propos_main{
+    margin: auto;
+}
+
+.carre_contenue{
+    border-right: 1px solid #8e86b5;
+    border-bottom: 1px solid #8e86b5;
+    padding: 50px; 
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+.carre_contenue h2 {
+    margin-top: 30px;
+}
+.carre_contenue ul {
+    margin-top: 30px;
+}
+.carre_contenue + div {
+    text-align: center;
+}
+
+table{
+    border-collapse: collapse;
+    font-size: 40px;
+    color: white;
+    width: 100%;
+    text-align: center;
+    margin-top: 80px;
+    
+  }
+ 
+td , th {
+ 
+     border: 1px solid black;
+     padding: 15px;
+     }
+
+td {
+    padding: 80px;
+ }
+
+h2 {
+    margin-bottom: 80px;
+}
+
+h1,h2 {
+    text-align: center;
+}
+
+.tarifs {
+    padding: 15px;
+    
+}
+
+@media screen and (max-width: 996px){
+
+    table {
+        display: none;
+    }
+}
